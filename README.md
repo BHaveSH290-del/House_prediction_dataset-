@@ -183,7 +183,7 @@ Final trained model used to predict price of a **brand new unseen house** by pas
 pip install pandas numpy matplotlib seaborn scikit-learn
 
 # 3. Download dataset from Kaggle
-# https://www.kaggle.com/datasets/yasserh/housing-prices-dataset
+[# https://www.kaggle.com/datasets/yasserh/housing-prices-dataset](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset/data)
 
 # 4. Run the notebook top to bottom
 jupyter notebook house_price_prediction.ipynb
