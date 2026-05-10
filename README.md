@@ -15,7 +15,7 @@ This project builds a **Regression ML Model** on a Housing dataset sourced from 
 | Detail | Info |
 |---|---|
 | **Source** | Kaggle — Housing Price Dataset |
-| **Rows** | ~513 houses |
+| **Rows** | ~545 houses |
 | **Target Column** | `price` |
 | **Type** | Regression |
 
@@ -171,7 +171,7 @@ Final trained model used to predict price of a **brand new unseen house** by pas
 - GridSearchCV is great for small param grids; RandomizedSearchCV saves time for large ones
 - K-Fold Cross Validation gives more reliable accuracy than a single train/test split
 - R² and RMSE are the right metrics for Regression (not Accuracy)
-- Small datasets (~515 rows) naturally cap model performance around 60-65%
+- Small datasets (~545 rows) naturally cap model performance around 60-65%
 
 ---
 
