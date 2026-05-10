@@ -192,4 +192,4 @@ jupyter notebook house_price_prediction.ipynb
 ---
 
 ## 👤 Author
-Made with ❤️ as a beginner ML project on Kaggle Housing Dataset.
+Made with sincerity as a beginner ML project on Kaggle Housing Dataset.
