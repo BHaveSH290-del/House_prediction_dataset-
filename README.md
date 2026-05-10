@@ -85,16 +85,6 @@ unfurnished    → [0, 1]
 
 ---
 
-### 5. ⚙️ Feature Engineering
-New meaningful features created to help the model:
-
-| New Feature | Formula | Meaning |
-|---|---|---|
-| `price_per_area` | price ÷ area | Price efficiency per sq ft |
-| `total_rooms` | bedrooms + bathrooms | Total room count |
-| `luxury_score` | AC + hotwater + prefarea + guestroom | Overall luxury rating |
-
----
 
 ### 6. ✂️ Train Test Split
 Data split into **80% training** and **20% testing** using `train_test_split`.
@@ -168,7 +158,7 @@ Final trained model used to predict price of a **brand new unseen house** by pas
 | Ridge Regression | ~0.63 | - |
 | Lasso Regression | ~0.62 | - |
 | Random Forest | **0.6476** | **0.6027** |
-| Gradient Boosting | ~0.63 | - |
+
 
 > **Note:** The slight drop from Cross Val R² to Final R² is expected — Cross Validation uses the full dataset in folds while Final evaluation uses a truly unseen 20% test set.
 
